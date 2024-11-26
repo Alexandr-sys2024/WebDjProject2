@@ -1,7 +1,0 @@
-from django.shortcuts import render
-from django.http import H
-
-def index(request):
-    return
-
-# Create your views here.
