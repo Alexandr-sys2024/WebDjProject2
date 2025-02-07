@@ -55,7 +55,7 @@ ROOT_URLCONF = 'SashaandDjango.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'SashaandDjango', 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
