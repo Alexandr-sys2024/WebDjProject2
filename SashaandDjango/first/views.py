@@ -8,3 +8,8 @@ def index(request):
 
 def data(request):
     return HttpResponse("Hello, this is the data view!")
+
+
+def test(request):
+    return HttpResponse("Hello, this is the test view!")
+
